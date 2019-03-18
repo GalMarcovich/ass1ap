@@ -36,6 +36,7 @@ namespace Excercise_1
             }
             OnCalculate?.Invoke(this, value);
             return value;
+
         }
 
         /*
