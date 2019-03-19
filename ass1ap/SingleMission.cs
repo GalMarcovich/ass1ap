@@ -1,4 +1,8 @@
-﻿using System;
+﻿/****************
+ * Gal Marcovich
+ * 208715367
+ ****************/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +27,9 @@ namespace Excercise_1
 
         public event EventHandler<double> OnCalculate;
 
+        /*
+         * calculate the value after all the funcs
+         */
         public double Calculate(double value) {
 
             double calc = value;

@@ -1,4 +1,8 @@
-﻿using System;
+﻿/****************
+ * Gal Marcovich
+ * 208715367
+ ****************/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,11 +26,10 @@ namespace Excercise_1
         public event EventHandler<double> OnCalculate;
 
         /*
-         * 
+         * calculate the value according to the funcs in the list
          */
         public double Calculate(double value)
         {
-
             foreach (var func in list)
             {
                 if (func != null)
@@ -35,12 +38,13 @@ namespace Excercise_1
                 }
             }
             OnCalculate?.Invoke(this, value);
+
             return value;
 
         }
 
         /*
-         * 
+         * add the mission to the list
          */
         public ComposedMission Add(func mission)
         {

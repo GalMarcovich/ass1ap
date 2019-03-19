@@ -1,4 +1,8 @@
-﻿using System;
+﻿/****************
+ * Gal Marcovich
+ * 208715367
+ ****************/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +16,9 @@ namespace Excercise_1
     {
         private Dictionary<string, func> funcs = new Dictionary<string, func>();
 
+        /*
+         * indexer according the funcs
+         */
         public func this[string funcName]
         {
             set { funcs[funcName] = value; }
@@ -26,6 +33,9 @@ namespace Excercise_1
             }
         }
 
+        /*
+         * return the list of the missions 
+         */
         public List<string> getAllMissions()
         {
             return new List<string>(this.funcs.Keys);

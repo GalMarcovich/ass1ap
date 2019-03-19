@@ -1,0 +1,35 @@
+commit 6c5cf877c0f3bc26dff8267cbe07958d1e68d5f3
+Author: Gal Marcovich <gal.marcovich@live.biu.ac.il>
+Date:   Mon Mar 18 19:32:14 2019 +0200
+
+    commit
+
+commit 45367038b7427cb1c7d70dcdaf35ba365f148cfc
+Author: Gal Marcovich <gal.marcovich@live.biu.ac.il>
+Date:   Mon Mar 18 14:02:23 2019 +0200
+
+    commit
+
+commit 9d42e460c8623e5c1fba67bf6aa9682c5f95b505
+Author: Gal Marcovich <gal.marcovich@live.biu.ac.il>
+Date:   Mon Mar 18 13:19:52 2019 +0200
+
+    hgvhv
+
+commit 3ab4df9cfdc6a04574bc8c0f487d144d9b40c256
+Author: Gal Marcovich <gal.marcovich@live.biu.ac.il>
+Date:   Mon Mar 18 09:57:48 2019 +0200
+
+    first
+
+commit aa8f10eae5996e1d17f935d7ca45abc0a045ca9b
+Author: Gal Marcovich <gal.marcovich@live.biu.ac.il>
+Date:   Mon Mar 18 09:48:19 2019 +0200
+
+    first
+
+commit 41f91ab6d900aaf4b35a56390f53b0f431cf5df7
+Author: gal16 <gal16@DESKTOP-LEU6H3K>
+Date:   Tue Mar 12 14:14:40 2019 +0200
+
+    Add .gitignore and .gitattributes.
